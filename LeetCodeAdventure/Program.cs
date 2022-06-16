@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using LeetCodeAdventure.June2022;
+
+LongestPalindromicSubstring longestPalindromicSubstring = new();
+
+var test = longestPalindromicSubstring.LongestPalindrome("bb");
+
+Console.WriteLine(test);
