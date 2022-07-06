@@ -1,7 +1,7 @@
-﻿using LeetCodeAdventure.June2022;
+﻿using LeetCodeAdventure.July2022;
 
-LongestPalindromicSubstring longestPalindromicSubstring = new();
+FibonacciNumber fib = new();
 
-var test = longestPalindromicSubstring.LongestPalindrome("bb");
+var test = fib.Fib(4);
 
 Console.WriteLine(test);
