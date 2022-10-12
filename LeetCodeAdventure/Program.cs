@@ -1,7 +1,9 @@
-﻿using LeetCodeAdventure.July2022;
+﻿using LeetCodeAdventure.October2022;
 
-FibonacciNumber fib = new();
+var Lpt = new LargestPerimeterTriangle();
 
-var test = fib.Fib(4);
+var numsArray = new int[] { 3, 2, 3, 4 };
+
+var test = Lpt.LargestPerimeter(numsArray);
 
 Console.WriteLine(test);

@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="October2022\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="October2022\" />
+  </ItemGroup>
 </Project>
