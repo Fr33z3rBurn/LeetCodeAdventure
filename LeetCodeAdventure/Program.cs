@@ -1,9 +1,9 @@
 ﻿using LeetCodeAdventure.October2022;
 
-var Lpt = new LargestPerimeterTriangle();
+var Tkfw = new TopKFrequentWords();
 
-var numsArray = new int[] { 3, 2, 3, 4 };
+var stringsArray = new string[] { "i", "love", "leetcode", "i", "love", "coding" };
 
-var test = Lpt.LargestPerimeter(numsArray);
+var test = Tkfw.TopKFrequent(stringsArray, 2);
 
 Console.WriteLine(test);
