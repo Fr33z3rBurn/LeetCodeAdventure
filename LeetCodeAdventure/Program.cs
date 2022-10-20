@@ -1,9 +1,7 @@
 ﻿using LeetCodeAdventure.October2022;
 
-var Tkfw = new TopKFrequentWords();
+var iToR = new IntegerToRoman();
 
-var stringsArray = new string[] { "i", "love", "leetcode", "i", "love", "coding" };
-
-var test = Tkfw.TopKFrequent(stringsArray, 2);
+var test = iToR.IntToRoman(3);
 
 Console.WriteLine(test);
