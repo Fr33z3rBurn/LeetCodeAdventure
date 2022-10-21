@@ -1,7 +1,7 @@
 ﻿using LeetCodeAdventure.October2022;
 
-var iToR = new IntegerToRoman();
+var nd = new ContainsNerbyDuplicate();
 
-var test = iToR.IntToRoman(3);
+var test = nd.ContainsNearbyDuplicate(new int[] { 1, 0, 1, 1 }, 1);
 
 Console.WriteLine(test);
