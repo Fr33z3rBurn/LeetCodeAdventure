@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace LeetCodeAdventure.June2022
 {
+	//https://leetcode.com/problems/n-queens/
+	//TODO
 	public class NQueens
 	{
-		//https://leetcode.com/problems/n-queens/
+
 	}
 }

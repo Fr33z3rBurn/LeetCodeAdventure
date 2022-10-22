@@ -1,7 +1,7 @@
 ﻿using LeetCodeAdventure.October2022;
 
-var nd = new ContainsNerbyDuplicate();
+var mWS = new MinimunWindowSubString();
 
-var test = nd.ContainsNearbyDuplicate(new int[] { 1, 0, 1, 1 }, 1);
+var test = mWS.MinWindow("ADOBECODEBANC", "ABC");
 
 Console.WriteLine(test);
