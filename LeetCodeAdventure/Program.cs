@@ -1,7 +1,7 @@
 ﻿using LeetCodeAdventure.October2022;
 
-var mWS = new MinimunWindowSubString();
+var sm = new SetMismatch();
 
-var test = mWS.MinWindow("ADOBECODEBANC", "ABC");
+var test = sm.FindErrorNums(new int[] { 2,2 });
 
 Console.WriteLine(test);

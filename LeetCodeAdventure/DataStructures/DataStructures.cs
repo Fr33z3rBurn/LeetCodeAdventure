@@ -5,6 +5,10 @@ namespace LeetCodeAdventure.DataStructures
 	{
 		public DataStructures()
 		{
+			//Linked List
+			//Heap
+			//Stack
+			//Hashmap
 		}
 	}
 }
