@@ -8,12 +8,17 @@ namespace LeetCodeAdventure.October2022
 		public int[] FindErrorNums(int[] nums)
 		{
 			var dupNum = nums.GroupBy(x => x).Where(z => z.Count() == 2).Select(y => y.Key).FirstOrDefault();
-			var edge = new int[] { 2, 2 };
-			if (dupNum == 2 && (nums.Contains(3) || nums.Length == 2))
+			Array.Sort(nums);
+			int missingNo = 0;
+			for (int i = 0; i < nums.Length; i++)
 			{
-				return new int[] { 2, 1 };
+				if (nums[i] != i + 1)
+				{
+					missingNo = i + 1;
+					break;
+				}
 			}
-			return new int[] { dupNum, dupNum + 1 };
+			return new int[] { dupNum, missingNo };
 		}
 	}
 }
